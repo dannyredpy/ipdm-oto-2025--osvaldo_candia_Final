@@ -1,0 +1,16 @@
++-----------------+       +----------------------+       +--------------------+
+|                 |       |                      |       |                    |
+|   Capa de UI    +------>+  ViewModels          +------>+  Repositorio Local |
+|(Jetpack Compose)|       | Eventos y Reservas  |       | (Room + SQLite)    |
+|                 |       |                      |       |                    |
++-----------------+       +----------------------+       +----------+---------+
+                                                                     |
+                                                                     v
+                                                             +-------+--------+
+                                                             |                |
+                                                             |  AppDatabase   |
+                                                             | (Entidades y   |
+                                                             |   Objeto de
+															   Acceso a Datos
+															   de Room)       |
+                                                             +----------------+
