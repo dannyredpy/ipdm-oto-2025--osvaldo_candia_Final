@@ -1,0 +1,18 @@
+<resources>
+    <!-- Colores principales -->
+    <color name="gold_primary">#FFD700</color> <!-- Dorado -->
+    <color name="gold_secondary">#FFC107</color> <!-- Dorado más suave -->
+    <color name="gold_accent">#FFB300</color> <!-- Detalles/hover -->
+
+    <!-- Colores para fondo claro -->
+    <color name="background_light">#FFFFFF</color>
+    <color name="surface_light">#F8F9FA</color>
+    <color name="text_primary_light">#212121</color>
+    <color name="text_secondary_light">#757575</color>
+
+    <!-- Colores para fondo oscuro -->
+    <color name="background_dark">#121212</color>
+    <color name="surface_dark">#1E1E1E</color>
+    <color name="text_primary_dark">#FFFFFF</color>
+    <color name="text_secondary_dark">#B0B0B0</color>
+</resources>
